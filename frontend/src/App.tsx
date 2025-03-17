@@ -1,9 +1,11 @@
-import React from 'react'
+// src/App.tsx
 
 const App = () => {
   return (
-    <div className='text-black mt-21 flex justify-center'>App</div>
-  )
+    <div className="bg-black text-white  mt-20 min-h-screen flex items-center justify-center">
+      <h1 className="text-2xl font-extrabold ">Tailwind is working!</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
